@@ -1,0 +1,13 @@
+@tailwind preflight;
+@tailwind utilities;
+/* Custom Sass goes here... */
+#app {
+  @apply .text-center .text-green-darker .mt-8 .bg-green;
+  font-family: 'Avenir', Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; }
+  #app__btn {
+    color: white;
+    background: #000; }
+    #app__btn:hover {
+      background: #777; }
