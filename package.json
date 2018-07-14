@@ -8,7 +8,7 @@
     "dev": "webpack-dev-server --inline --progress --config build/webpack.dev.conf.js",
     "start": "npm run dev",
     "lint": "eslint --ext .js,.vue src",
-    "build": "node build/build.js",
+    "build": "npm run build:sass && npm run compile:tailwind && node build/build.js",
     "compile:sass": "node-sass src/assets/scss/app.scss src/static/css/app.comp.css",
     "prefix:css": "postcss -b 'last 10 versions' src/static/css/app.comp.css -o src/static/css/app.prefix.css",
     "build:sass": "npm run compile:sass && npm run prefix:css",

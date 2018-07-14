@@ -1,8 +1,10 @@
 <template>
   <div id="app">
     <img src="./assets/logo.png">
-    <button id="app__btn">Hello</button>
     <router-view/>
+    <div class="text-center">
+      <a id="app__btn" href="https://vuejs.org">Visit the vue website</a>
+    </div>
   </div>
 </template>
 

@@ -8,9 +8,8 @@
 # install dependencies
 npm install
 
-# serve with hot reload at localhost:8080 (one terminal tab)
+# serve with hot reload at localhost:8080
 npm run dev
-npm run build:sass && npm run compile:tailwind # in another terminal window
 
 # build for production with minification
 npm run build

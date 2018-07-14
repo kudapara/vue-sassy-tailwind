@@ -6,17 +6,16 @@
 /* Custom Sass goes here... */
 
 #app {
-  @apply .text-center .text-green-darker .mt-8 .bg-green;
+  @apply .text-center .text-green-darker .mt-8;
   font-family: 'Avenir', Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 
   &__btn {
-    color: white;
-    background: #000;
+    @apply .inline-block .no-underline .bg-green .w-64 .mt-8 .text-white .rounded .py-4 .px-8;
 
     &:hover {
-      background: #777;
+      @apply .bg-green-light
     }
   }
 }
